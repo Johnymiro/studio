@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  output: 'export', // Enables static export (Next.js 13+)
+  distDir: 'dist',  // Custom output folder
 };
 
 export default nextConfig;
